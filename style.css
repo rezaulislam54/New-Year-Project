@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-bottom: 80px;
+}
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.banner-container{
+    background-image: url(resources/Banner\ Image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-size: contain;
+}
+.items{
+    text-align: center;
+}
+.header{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+}
+.header1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.card{
+    max-width: 800px;
+    height: 806px;
+    margin: 120px auto;
+}
+.container_item{
+    text-align: center;
+}
+.discount{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+.catogry{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.vactor-container{
+    background-image: url(resources/Vectorrr.png);
+    height: 600px;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vactor-item{
+    text-align: left;
+    color: white;
+}
+.vactor-header{
+    font-size: 50px;
+    line-height: 50px;
+     font-family: Merriweather;
+     margin-bottom: 20px;
+}
+.btton{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.hotel-container{
+    height: 482px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-items{
+    text-align: center;
+    line-height: 35px;
+}
+.join-button{
+    color: white;
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.comming-container{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.comming-info{
+    padding: 90px  0;
+    
+}
+.common-header{
+    font-size: 24px;
+    font-weight: 500;
+}
+.comming-header{
+    font-size: 48px;
+    padding: 16px 0;
+}
+.left-div{
+    padding-top: 60px;
+    margin-right: 5px;
+}
+.left-div div{
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+}
+.trangle-image{
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 20px;
+}
+.sale-container{
+    max-width: 1320px;
+    height: 900px;
+    position: relative;
+}
+.sale-info{
+    text-align: center;
+}
+.sale-header{
+    font-family: Merriweather;
+    font-weight: 900;
+    font-size: 72px;   
+}
+.sale-image-container{
+    display: flex;
+    
+}
+.image-container{
+   display: flex;
+    position: absolute;
+}
+.third{
+    position: absolute;
+    top: 330px;
+    left: 650px;
+}
+
+/* protfolio section styles */
+
+.awesome-header{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Merriweather;
+    margin: 15px 0;
+}
+.sescribe-container{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+}
+.sescribe-items{
+    text-align: center;
+    padding-top: 80px;
+}
+.bouton{
+    padding-top: 60px;
+}
+input {
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: white;
+}
+input:focus{
+    outline: none;
+}
+button{
+    padding: 15px;
+    font-size: 20px;
+     background: #CABFC2;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-left: none;
+    margin-left: -5px;
+    border: none;
+}
+/* footer section start */
+.footer-container{
+    max-width: 1600px;
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    padding: 30px 60px;
+
+} 
+.footter-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
+}
+.fotter-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotter-bttom-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
