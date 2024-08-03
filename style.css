@@ -158,7 +158,10 @@ main{
 }
 
 /* protfolio section styles */
-
+.protfolio-container{
+    max-width: 1320px;
+    margin: 0px auto;
+}
 .awesome-header{
     font-size: 30px;
     font-weight: 900;
