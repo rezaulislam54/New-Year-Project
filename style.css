@@ -12,6 +12,8 @@ main{
 }
 .banner-container{
     background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
     display: flex;
     justify-content: center;
     align-items: center;
